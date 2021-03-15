@@ -7,8 +7,11 @@ function Navbar() {
             <nav className="navbar">
                <div className="navbar-container">
                    <Link to="/" className="navbar-logo">
-                       Visitee
+                       Visitee <i className="fab fa-typo3"></i>
                    </Link>
+                   <div className="menu-icon">
+                   
+                   </div>
                 </div> 
             </nav>
         </>
