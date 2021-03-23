@@ -20,8 +20,31 @@ function Cards() {
 
                         <CardItem
                         src={images1}
+                        text = "Travel through this beautiful island"
+                        label='Luxury'
+                        path='/services'
+                        />
+                    </ul>
+
+                    <ul className="cards__items">
+                        <CardItem
+                        src={images}
                         text = "Explore the hidden waterfall deep inside the Amazon Jungle"
                         label='Adventure'
+                        path='/services'
+                        />
+
+                        <CardItem
+                        src={images1}
+                        text = "Travel through this beautiful island"
+                        label='Luxury'
+                        path='/services'
+                        />
+
+                        <CardItem
+                        src={images1}
+                        text = "Travel through this beautiful island"
+                        label='Luxury'
                         path='/services'
                         />
                     </ul>
