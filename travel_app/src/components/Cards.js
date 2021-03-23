@@ -3,6 +3,9 @@ import CardItem from './CardItem'
 import './Cards.css';
 import images from "../images/img-9.jpg"
 import images1 from "../images/img-2.jpg"
+import images2 from "../images/img-1.jpg"
+import images3 from "../images/img-8.jpg"
+import images4 from "../images/img-22.jpg"
 
 function Cards() {
     return (
@@ -28,21 +31,21 @@ function Cards() {
 
                     <ul className="cards__items">
                         <CardItem
-                        src={images}
+                        src={images2}
                         text = "Explore the hidden waterfall deep inside the Amazon Jungle"
                         label='Adventure'
                         path='/services'
                         />
 
                         <CardItem
-                        src={images1}
+                        src={images3}
                         text = "Travel through this beautiful island"
                         label='Luxury'
                         path='/services'
                         />
 
                         <CardItem
-                        src={images1}
+                        src={images4}
                         text = "Travel through this beautiful island"
                         label='Luxury'
                         path='/services'
